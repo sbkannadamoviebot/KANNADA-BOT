@@ -16,25 +16,25 @@ def is_enabled(value, default):
 
 # Main
 SESSION = environ.get("SESSION", "Media_search")
-API_ID = int(environ.get("API_ID", ""))
-API_HASH = environ.get("API_HASH", "")
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
+API_ID = int(environ.get("API_ID", "30451099"))
+API_HASH = environ.get("API_HASH", "93f126c9b4afc8e31c4cdc21b35ddfde")
+BOT_TOKEN = environ.get("BOT_TOKEN", "8071986344:AAHusvHAtJmCa7cjookfR0t5wyW8E6GJi-0")
 PORT = environ.get("PORT", "8082")
 
 # Owners
 ADMINS = [
     int(admin) if id_pattern.search(admin) else admin
-    for admin in environ.get("ADMINS", "5672857559").split()
+    for admin in environ.get("ADMINS", "5974804314").split()
 ]
 OWNER_USERNAME = environ.get(
-    "OWNER_USERNAME", "IM_JISSHU"
+    "OWNER_USERNAME", "suryabm04"
 )  # without @ or https://t.me/
-USERNAME = environ.get("USERNAME", "")  # ADMIN USERNAME
+USERNAME = environ.get("USERNAME", "suryabm04")  # ADMIN USERNAME
 
 # Database Channel
 CHANNELS = [
     int(ch) if id_pattern.search(ch) else ch
-    for ch in environ.get("CHANNELS", "").split()
+    for ch in environ.get("CHANNELS", "-1003764489716").split()
 ]
 
 # ForceSub Channel & Log Channels
@@ -45,8 +45,8 @@ LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", ""))
 LOG_VR_CHANNEL = int(environ.get("LOG_VR_CHANNEL", ""))
 
 # MongoDB
-DATABASE_URI = environ.get("DATABASE_URI", "")
-DATABASE_NAME = environ.get("DATABASE_NAME", "Cluster0")
+DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://SBKANNADA:SBKANNADAMOVIEBOT@sbkannada.0qq1qjs.mongodb.net/?appName=SBKANNADA")
+DATABASE_NAME = environ.get("DATABASE_NAME", "SBKANNADA")
 
 # Files index database url
 FILES_DATABASE = environ.get("FILES_DATABASE", "")
@@ -70,9 +70,9 @@ MOVIE_GROUP_LINK = environ.get("MOVIE_GROUP_LINK", "")
 # Verification
 IS_VERIFY = is_enabled("IS_VERIFY", True)
 # ---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/SB_KANNADA_MOVE_WORLD")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/SB_KANNADA_MOVE_WORLD")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/SB_KANNADA_MOVE_WORLD")
 VERIFY_IMG = environ.get(
     "VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg"
 )
