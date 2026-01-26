@@ -1,4 +1,4 @@
-FROM python:3.10.8-slim-buster
+FROM python:3.10-slim-bookworm
 
 WORKDIR /Jisshu-filter-bot
 RUN chmod 777 /Jisshu-filter-bot
