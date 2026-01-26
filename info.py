@@ -54,7 +54,7 @@ COLLECTION_NAME = environ.get("COLLECTION_NAME", "SKFILTERBOT")
 
 # Other Channel's
 SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1001864434358"))
-DELETE_CHANNELS = int(environ.get("DELETE_CHANNELS", ""))
+DELETE_CHANNELS = int(environ.get("DELETE_CHANNELS", "0"))
 request_channel = environ.get("REQUEST_CHANNEL", "-1001864434358")
 REQUEST_CHANNEL = (
     int(request_channel)
