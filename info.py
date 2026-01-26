@@ -49,7 +49,7 @@ DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://SBKANNADA:SBKANNADAMOV
 DATABASE_NAME = environ.get("DATABASE_NAME", "SBKANNADA")
 
 # Files index database url
-FILES_DATABASE = environ.get("FILES_DATABASE", "mongodb+srv://skautofilter_db_user:<SKFILTERBOT>@skfilterbot.btkoqc4.mongodb.net/?appName=SKFILTERBOT")
+FILES_DATABASE = environ.get("FILES_DATABASE", "")
 COLLECTION_NAME = environ.get("COLLECTION_NAME", "SKFILTERBOT")
 
 # Other Channel's
