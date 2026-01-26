@@ -49,8 +49,8 @@ DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://SBKANNADA:SBKANNADAMOV
 DATABASE_NAME = environ.get("DATABASE_NAME", "SBKANNADA")
 
 # Files index database url
-FILES_DATABASE = environ.get("FILES_DATABASE", "")
-COLLECTION_NAME = environ.get("COLLECTION_NAME", "SKFILTERBOT")
+FILES_DATABASE = environ.get("FILES_DATABASE", "mongodb+srv://SBKANNADA:SBKANNADAMOVIEBOT@sbkannada.0qq1qjs.mongodb.net/?appName=SBKANNADA")
+COLLECTION_NAME = environ.get("COLLECTION_NAME", "SBKANNADA")
 
 # Other Channel's
 SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1001864434358"))
