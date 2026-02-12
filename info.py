@@ -34,15 +34,15 @@ USERNAME = environ.get("USERNAME", "suryabm04")  # ADMIN USERNAME
 # Database Channel
 CHANNELS = [
     int(ch) if id_pattern.search(ch) else ch
-    for ch in environ.get("CHANNELS", "-1003764489716").split()
+    for ch in environ.get("CHANNELS", "-1003734321049").split()
 ]
 
 # ForceSub Channel & Log Channels
 AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", ""))
 AUTH_REQ_CHANNEL = int(environ.get("AUTH_REQ_CHANNEL", ""))
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1003764489716"))
-LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", "-1003764489716"))
-LOG_VR_CHANNEL = int(environ.get("LOG_VR_CHANNEL", "-1003764489716"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1003734321049"))
+LOG_API_CHANNEL = int(environ.get("LOG_API_CHANNEL", "-1003734321049"))
+LOG_VR_CHANNEL = int(environ.get("LOG_VR_CHANNEL", "-1003734321049"))
 
 # MongoDB
 DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://SBKANNADA:SBKANNADAMOVIEBOT@sbkannada.0qq1qjs.mongodb.net/?appName=SBKANNADA")
